@@ -1,11 +1,16 @@
 Feature: Account
 
+  In order to ...
+  As a ....
+  I want ....
+
+  @Smoke
   Scenario: Navigate to the Log In Page
     Given I am on the Home page
     When I click on the sign in button
     Then I see the Authorization page
 
-  @Smoke
+
   Scenario Outline: Log In
     Given I am on the Authentication page of the Next Experience website
     And I enter <username> in the username
